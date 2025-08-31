@@ -15,4 +15,4 @@ RUN chmod +x /baserow/supervisor/env/heroku_env.sh
 
 # Add the actual start command, adjust path and command as needed.
 # Example: starting Baserow with supervisord or another command.
-CMD ["supervisord", "-c", "/baserow/supervisor/supervisord.conf"]
+CMD ["baserow", "start"]
